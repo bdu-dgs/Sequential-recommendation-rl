@@ -1,0 +1,67 @@
+# Core simulated-policy experiment (KuaiRecFO-v1). All returns are SIMULATED returns.
+response_model: experiments/runs/response_model/seed0/model.pt   # real-data model -> logging policy scorer
+
+sim:                       # see src/seqrec_rl/environments/kuairec_sim.py for provenance of each rule
+  horizon: 30
+  hist_len: 20
+  reward_cap: 2.0          # reward = min(watch_ratio, 2) from the fully-observed matrix (real)
+  gamma: 0.95
+  fatigue_beta: 0.3        # synthetic
+  fatigue_window: 5        # synthetic
+  patience: 3              # synthetic
+  skip_threshold: 0.5      # synthetic
+  noise_std: 0.0           # synthetic
+  drift_delta: 0.0         # synthetic
+  drift_seed: 0
+  cold_start_hist: null
+  response: fo
+  learned_response_path: null
+
+logging:                   # behaviour policy; propensities are recorded exactly
+  temperature: 0.1
+  eps: 0.05
+  head_size: null
+
+offline_data:
+  transitions: 200000
+  n_envs: 64
+
+agent:
+  emb_dim: 64
+  hidden: 256
+  lr: 0.0003
+  batch_size: 256
+  history_repr: tags       # tags: history items by tags (+ IDs for catalog items only); ids: v0 per-item IDs
+  dropout: 0.2             # added after seed-0 v0 runs memorised training users (docs/decisions.md)
+  weight_decay: 0.0001
+
+offline:
+  steps: 30000
+  eval_every: 2500         # checkpoint selection on validation users (same rule for every method)
+
+cql:
+  alpha: 1.0
+bcq:
+  tau: 0.3
+bandit:
+  lam: 1.0
+  beta: 0.5
+
+online:
+  budget: 50000            # environment transitions
+  n_envs: 16
+  updates_per_collect: 4   # gradient steps per 16 transitions
+  eval_every: 2500
+  eps_start: 0.1
+  eps_end: 0.02
+  eps_decay_steps: 25000
+  offline_ratio: 0.5
+  keep_target: true
+  keep_optimizer: false
+
+support:
+  kappa: 1.0
+  lam: 1.0
+
+eval:
+  n_envs: 128

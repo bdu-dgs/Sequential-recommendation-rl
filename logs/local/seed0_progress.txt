@@ -1,0 +1,24 @@
+[21:05:04] s5b_offline: 9 commands, 3 in parallel
+[21:05:28] s5b_offline line 2 ok (0.4 min): run_offline.py --seed 0 --method popularity
+[21:05:28] s5b_offline line 1 ok (0.4 min): run_offline.py --seed 0 --method random
+[21:05:30] s5b_offline line 3 ok (0.4 min): run_offline.py --seed 0 --method behavior
+[21:13:53] s5b_offline line 4 ok (8.4 min): run_offline.py --seed 0 --method ranker
+[21:13:53] s5b_offline line 5 ok (8.4 min): run_offline.py --seed 0 --method bc
+[21:19:54] s5b_offline line 6 ok (14.4 min): run_offline.py --seed 0 --method dqn
+[21:29:24] s5b_offline line 7 ok (15.5 min): run_offline.py --seed 0 --method cql
+[21:29:42] s5b_offline line 8 ok (15.8 min): run_offline.py --seed 0 --method calql
+[21:42:58] s5b_offline line 9 ok (23.1 min): run_offline.py --seed 0 --method bcq
+[21:42:58] s6_online: 13 commands, 3 in parallel
+[21:44:52] s6_online line 3 ok (1.9 min): run_online.py --seed 0 --method bandit
+[21:49:54] s6_online line 1 ok (6.9 min): run_online.py --seed 0 --method scratch_dqn
+[21:50:40] s6_online line 2 ok (7.7 min): run_online.py --seed 0 --method scratch_rlpd
+[21:52:17] s6_online line 4 ok (7.4 min): run_online.py --seed 0 --method ft_dqn
+[21:57:43] s6_online line 5 ok (7.8 min): run_online.py --seed 0 --method ft_cql
+[21:58:32] s6_online line 6 ok (7.9 min): run_online.py --seed 0 --method ft_cql_decay
+[22:00:16] s6_online line 7 ok (8.0 min): run_online.py --seed 0 --method ft_calql
+[22:06:41] s6_online line 8 ok (9.0 min): run_online.py --seed 0 --method ft_support_oracle
+[22:07:27] s6_online line 9 ok (8.9 min): run_online.py --seed 0 --method ft_support_bc
+[22:08:23] s6_online line 10 ok (8.1 min): run_online.py --seed 0 --method ft_support_uniform
+[22:15:50] s6_online line 11 ok (9.2 min): run_online.py --seed 0 --method ft_support_uniform_tracked
+[22:16:25] s6_online line 12 ok (9.0 min): run_online.py --seed 0 --method ft_support_shuffled
+[22:17:17] s6_online line 13 ok (8.9 min): run_online.py --seed 0 --method ft_support_inverted

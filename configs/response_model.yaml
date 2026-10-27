@@ -1,0 +1,16 @@
+# Supervised user-response model on real KuaiRec logs (scripts/train_response_model.py)
+hist_len: 20
+wr_cap: 2.0            # targets: min(watch_ratio, 2.0); engaged := watch_ratio >= 1.0
+emb_dim: 64
+hidden: 128
+batch_size: 4096
+lr: 0.001
+weight_decay: 0.0
+epochs: 4
+huber_delta: 1.0
+eng_loss_weight: 1.0
+train_groups: [seen, small]   # 'unseen' users are held out entirely
+max_train_rows: null          # set an int for quick runs
+eval_batch: 16384
+fo_history_cutoff_utc: 1597075199   # 2020-08-10 23:59:59 local (UTC+8): end of the train window
+threads: 4

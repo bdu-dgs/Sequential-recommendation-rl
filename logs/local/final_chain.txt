@@ -1,0 +1,95 @@
+[15:12:20] s7a_data: 5 commands, 3 in parallel
+[15:13:14] s7a_data line 1 ok (0.9 min): generate_data.py --seed 0 logging.eps=0.0 logging.head_size=500
+[15:13:14] s7a_data line 2 ok (0.9 min): generate_data.py --seed 1 logging.eps=0.0 logging.head_size=500
+[15:13:15] s7a_data line 3 ok (0.9 min): generate_data.py --seed 2 logging.eps=0.0 logging.head_size=500
+[15:13:42] s7a_data line 5 ok (0.5 min): generate_data.py --seed 4 logging.eps=0.0 logging.head_size=500
+[15:13:42] s7a_data line 4 ok (0.5 min): generate_data.py --seed 3 logging.eps=0.0 logging.head_size=500
+[15:13:42] s7b_offline: 20 commands, 3 in parallel
+[15:13:55] s7b_offline line 3 ok (0.2 min): run_offline.py --seed 0 --method behavior --tag narrow logging.eps=0.0 logging.head_size=5
+[15:22:09] s7b_offline line 2 ok (8.4 min): run_offline.py --seed 0 --method bc --tag narrow logging.eps=0.0 logging.head_size=500
+[15:28:56] s7b_offline line 1 ok (15.2 min): run_offline.py --seed 0 --method cql --tag narrow logging.eps=0.0 logging.head_size=500
+[15:35:55] s7b_offline line 4 ok (22.0 min): run_offline.py --seed 0 --method bcq --tag narrow logging.eps=0.0 logging.head_size=500
+[15:36:14] s7b_offline line 7 ok (0.3 min): run_offline.py --seed 1 --method behavior --tag narrow logging.eps=0.0 logging.head_size=5
+[15:37:30] s7b_offline line 6 ok (8.6 min): run_offline.py --seed 1 --method bc --tag narrow logging.eps=0.0 logging.head_size=500
+[15:37:55] s7b_offline line 5 ok (15.8 min): run_offline.py --seed 1 --method cql --tag narrow logging.eps=0.0 logging.head_size=500
+[15:46:17] s7b_offline line 10 ok (8.4 min): run_offline.py --seed 2 --method bc --tag narrow logging.eps=0.0 logging.head_size=500
+[15:46:36] s7b_offline line 11 ok (0.3 min): run_offline.py --seed 2 --method behavior --tag narrow logging.eps=0.0 logging.head_size=5
+[15:52:53] s7b_offline line 9 ok (15.4 min): run_offline.py --seed 2 --method cql --tag narrow logging.eps=0.0 logging.head_size=500
+[15:58:10] s7b_offline line 8 ok (21.9 min): run_offline.py --seed 1 --method bcq --tag narrow logging.eps=0.0 logging.head_size=500
+[16:06:46] s7b_offline line 14 ok (8.6 min): run_offline.py --seed 3 --method bc --tag narrow logging.eps=0.0 logging.head_size=500
+[16:07:04] s7b_offline line 15 ok (0.3 min): run_offline.py --seed 3 --method behavior --tag narrow logging.eps=0.0 logging.head_size=5
+[16:08:33] s7b_offline line 13 ok (15.7 min): run_offline.py --seed 3 --method cql --tag narrow logging.eps=0.0 logging.head_size=500
+[16:08:55] s7b_offline line 12 ok (22.3 min): run_offline.py --seed 2 --method bcq --tag narrow logging.eps=0.0 logging.head_size=500
+[16:17:17] s7b_offline line 18 ok (8.4 min): run_offline.py --seed 4 --method bc --tag narrow logging.eps=0.0 logging.head_size=500
+[16:17:35] s7b_offline line 19 ok (0.3 min): run_offline.py --seed 4 --method behavior --tag narrow logging.eps=0.0 logging.head_size=5
+[16:23:21] s7b_offline line 17 ok (14.8 min): run_offline.py --seed 4 --method cql --tag narrow logging.eps=0.0 logging.head_size=500
+[16:28:14] s7b_offline line 16 ok (21.2 min): run_offline.py --seed 3 --method bcq --tag narrow logging.eps=0.0 logging.head_size=500
+[16:34:44] s7b_offline line 20 ok (17.1 min): run_offline.py --seed 4 --method bcq --tag narrow logging.eps=0.0 logging.head_size=500
+[16:34:44] s7c_online: 35 commands, 3 in parallel
+[16:40:12] s7c_online line 1 ok (5.5 min): run_online.py --seed 0 --method ft_dqn --tag narrow --init_tag narrow logging.eps=0.0 logg
+[16:40:24] s7c_online line 2 ok (5.7 min): run_online.py --seed 0 --method ft_cql --tag narrow --init_tag narrow logging.eps=0.0 logg
+[16:40:24] s7c_online line 3 ok (5.7 min): run_online.py --seed 0 --method ft_cql_decay --tag narrow --init_tag narrow logging.eps=0.
+[16:47:07] s7c_online line 5 ok (6.7 min): run_online.py --seed 0 --method ft_support_uniform --tag narrow --init_tag narrow logging.
+[16:47:26] s7c_online line 4 ok (7.2 min): run_online.py --seed 0 --method ft_support_oracle --tag narrow --init_tag narrow logging.e
+[16:47:52] s7c_online line 6 ok (7.5 min): run_online.py --seed 0 --method ft_support_uniform_tracked --tag narrow --init_tag narrow 
+[16:53:34] s7c_online line 8 ok (6.1 min): run_online.py --seed 1 --method ft_dqn --tag narrow --init_tag narrow logging.eps=0.0 logg
+[16:54:25] s7c_online line 7 ok (7.3 min): run_online.py --seed 0 --method ft_support_bc --tag narrow --init_tag narrow logging.eps=0
+[16:54:26] s7c_online line 9 ok (6.6 min): run_online.py --seed 1 --method ft_cql --tag narrow --init_tag narrow logging.eps=0.0 logg
+[17:00:49] s7c_online line 10 ok (7.2 min): run_online.py --seed 1 --method ft_cql_decay --tag narrow --init_tag narrow logging.eps=0.
+[17:01:47] s7c_online line 12 ok (7.3 min): run_online.py --seed 1 --method ft_support_uniform --tag narrow --init_tag narrow logging.
+[17:02:17] s7c_online line 11 ok (7.9 min): run_online.py --seed 1 --method ft_support_oracle --tag narrow --init_tag narrow logging.e
+[17:08:07] s7c_online line 13 ok (7.3 min): run_online.py --seed 1 --method ft_support_uniform_tracked --tag narrow --init_tag narrow 
+[17:08:30] s7c_online line 15 ok (6.2 min): run_online.py --seed 2 --method ft_dqn --tag narrow --init_tag narrow logging.eps=0.0 logg
+[17:09:00] s7c_online line 14 ok (7.2 min): run_online.py --seed 1 --method ft_support_bc --tag narrow --init_tag narrow logging.eps=0
+[17:14:39] s7c_online line 16 ok (6.5 min): run_online.py --seed 2 --method ft_cql --tag narrow --init_tag narrow logging.eps=0.0 logg
+[17:15:01] s7c_online line 17 ok (6.5 min): run_online.py --seed 2 --method ft_cql_decay --tag narrow --init_tag narrow logging.eps=0.
+[17:16:08] s7c_online line 18 ok (7.1 min): run_online.py --seed 2 --method ft_support_oracle --tag narrow --init_tag narrow logging.e
+[17:20:50] s7c_online line 19 ok (6.2 min): run_online.py --seed 2 --method ft_support_uniform --tag narrow --init_tag narrow logging.
+[17:21:42] s7c_online line 20 ok (6.7 min): run_online.py --seed 2 --method ft_support_uniform_tracked --tag narrow --init_tag narrow 
+[17:22:41] s7c_online line 21 ok (6.5 min): run_online.py --seed 2 --method ft_support_bc --tag narrow --init_tag narrow logging.eps=0
+[17:26:11] s7c_online line 22 ok (5.3 min): run_online.py --seed 3 --method ft_dqn --tag narrow --init_tag narrow logging.eps=0.0 logg
+[17:27:30] s7c_online line 23 ok (5.8 min): run_online.py --seed 3 --method ft_cql --tag narrow --init_tag narrow logging.eps=0.0 logg
+[17:28:30] s7c_online line 24 ok (5.8 min): run_online.py --seed 3 --method ft_cql_decay --tag narrow --init_tag narrow logging.eps=0.
+[17:32:33] s7c_online line 25 ok (6.4 min): run_online.py --seed 3 --method ft_support_oracle --tag narrow --init_tag narrow logging.e
+[17:33:50] s7c_online line 26 ok (6.3 min): run_online.py --seed 3 --method ft_support_uniform --tag narrow --init_tag narrow logging.
+[17:37:13] s7c_online line 27 ok (8.7 min): run_online.py --seed 3 --method ft_support_uniform_tracked --tag narrow --init_tag narrow 
+[17:42:31] s7c_online line 29 ok (8.7 min): run_online.py --seed 4 --method ft_dqn --tag narrow --init_tag narrow logging.eps=0.0 logg
+[17:42:42] s7c_online line 28 ok (10.2 min): run_online.py --seed 3 --method ft_support_bc --tag narrow --init_tag narrow logging.eps=0
+[17:44:50] s7c_online line 30 ok (7.6 min): run_online.py --seed 4 --method ft_cql --tag narrow --init_tag narrow logging.eps=0.0 logg
+[17:49:28] s7c_online line 31 ok (7.0 min): run_online.py --seed 4 --method ft_cql_decay --tag narrow --init_tag narrow logging.eps=0.
+[17:50:32] s7c_online line 32 ok (7.8 min): run_online.py --seed 4 --method ft_support_oracle --tag narrow --init_tag narrow logging.e
+[17:52:27] s7c_online line 33 ok (7.6 min): run_online.py --seed 4 --method ft_support_uniform --tag narrow --init_tag narrow logging.
+[17:57:54] s7c_online line 34 ok (8.4 min): run_online.py --seed 4 --method ft_support_uniform_tracked --tag narrow --init_tag narrow 
+[17:58:50] s7c_online line 35 ok (8.3 min): run_online.py --seed 4 --method ft_support_bc --tag narrow --init_tag narrow logging.eps=0
+[17:58:51] s8a_online: 20 commands, 3 in parallel
+[18:05:56] s8a_online line 1 ok (7.1 min): run_online.py --seed 0 --method scratch_dqn --tag learnedsim sim.response=learned sim.lear
+[18:06:42] s8a_online line 2 ok (7.8 min): run_online.py --seed 0 --method ft_dqn --tag learnedsim sim.response=learned sim.learned_r
+[18:07:10] s8a_online line 3 ok (8.3 min): run_online.py --seed 0 --method ft_cql --tag learnedsim sim.response=learned sim.learned_r
+[18:13:34] s8a_online line 5 ok (6.9 min): run_online.py --seed 1 --method scratch_dqn --tag learnedsim sim.response=learned sim.lear
+[18:14:49] s8a_online line 6 ok (7.7 min): run_online.py --seed 1 --method ft_dqn --tag learnedsim sim.response=learned sim.learned_r
+[18:15:02] s8a_online line 4 ok (9.1 min): run_online.py --seed 0 --method ft_support_oracle --tag learnedsim sim.response=learned si
+[18:21:44] s8a_online line 7 ok (8.2 min): run_online.py --seed 1 --method ft_cql --tag learnedsim sim.response=learned sim.learned_r
+[18:21:59] s8a_online line 9 ok (6.9 min): run_online.py --seed 2 --method scratch_dqn --tag learnedsim sim.response=learned sim.lear
+[18:23:55] s8a_online line 8 ok (9.1 min): run_online.py --seed 1 --method ft_support_oracle --tag learnedsim sim.response=learned si
+[18:29:22] s8a_online line 10 ok (7.6 min): run_online.py --seed 2 --method ft_dqn --tag learnedsim sim.response=learned sim.learned_r
+[18:30:09] s8a_online line 11 ok (8.2 min): run_online.py --seed 2 --method ft_cql --tag learnedsim sim.response=learned sim.learned_r
+[18:33:01] s8a_online line 12 ok (9.1 min): run_online.py --seed 2 --method ft_support_oracle --tag learnedsim sim.response=learned si
+[18:36:14] s8a_online line 13 ok (6.9 min): run_online.py --seed 3 --method scratch_dqn --tag learnedsim sim.response=learned sim.lear
+[18:37:49] s8a_online line 14 ok (7.7 min): run_online.py --seed 3 --method ft_dqn --tag learnedsim sim.response=learned sim.learned_r
+[18:41:12] s8a_online line 15 ok (8.2 min): run_online.py --seed 3 --method ft_cql --tag learnedsim sim.response=learned sim.learned_r
+[18:44:32] s8a_online line 17 ok (6.7 min): run_online.py --seed 4 --method scratch_dqn --tag learnedsim sim.response=learned sim.lear
+[18:45:06] s8a_online line 16 ok (8.9 min): run_online.py --seed 3 --method ft_support_oracle --tag learnedsim sim.response=learned si
+[18:48:23] s8a_online line 18 ok (7.2 min): run_online.py --seed 4 --method ft_dqn --tag learnedsim sim.response=learned sim.learned_r
+[18:50:24] s8a_online line 19 ok (5.9 min): run_online.py --seed 4 --method ft_cql --tag learnedsim sim.response=learned sim.learned_r
+[18:50:59] s8a_online line 20 ok (5.9 min): run_online.py --seed 4 --method ft_support_oracle --tag learnedsim sim.response=learned si
+[18:50:59] s8b_eval: 10 commands, 3 in parallel
+[18:51:26] s8b_eval line 2 ok (0.5 min): run_ope.py --seed 0
+[18:51:51] s8b_eval line 4 ok (0.4 min): run_ope.py --seed 1
+[18:53:18] s8b_eval line 3 ok (2.3 min): evaluate_checkpoints.py --seed 1
+[18:53:18] s8b_eval line 1 ok (2.3 min): evaluate_checkpoints.py --seed 0
+[18:53:45] s8b_eval line 6 ok (0.4 min): run_ope.py --seed 2
+[18:54:06] s8b_eval line 5 ok (2.2 min): evaluate_checkpoints.py --seed 2
+[18:54:09] s8b_eval line 8 ok (0.4 min): run_ope.py --seed 3
+[18:54:33] s8b_eval line 10 ok (0.4 min): run_ope.py --seed 4
+[18:55:23] s8b_eval line 7 ok (2.1 min): evaluate_checkpoints.py --seed 3
+[18:55:54] s8b_eval line 9 ok (1.8 min): evaluate_checkpoints.py --seed 4

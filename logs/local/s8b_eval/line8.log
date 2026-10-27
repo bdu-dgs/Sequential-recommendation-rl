@@ -1,0 +1,11 @@
+offline/ranker               true 1.731 IPS 2.624 SNIPS 1.909 DM 1.807 DR 1.950 | ESS 3 unsupported 0.312
+offline/bc                   true 1.717 IPS 1.740 SNIPS 1.726 DM 1.670 DR 1.730 | ESS 3682 unsupported 0.000
+offline/dqn                  true 1.129 IPS 2.807 SNIPS 1.542 DM 1.078 DR 1.743 | ESS 3 unsupported 0.822
+offline/cql                  true 1.704 IPS 1.700 SNIPS 1.719 DM 1.664 DR 1.714 | ESS 3893 unsupported 0.000
+offline/calql                true 1.721 IPS 1.713 SNIPS 1.722 DM 1.686 DR 1.721 | ESS 2995 unsupported 0.000
+offline/bcq                  true 1.761 IPS 1.888 SNIPS 1.748 DM 1.705 DR 1.761 | ESS 1952 unsupported 0.000
+online/scratch_dqn          true 0.998 IPS 0.179 SNIPS 1.090 DM 0.863 DR 0.828 | ESS 6 unsupported 0.809
+online/ft_dqn               true 1.119 IPS 1.101 SNIPS 1.062 DM 0.822 DR 1.002 | ESS 3 unsupported 0.764
+online/ft_cql               true 1.753 IPS 1.796 SNIPS 1.755 DM 1.712 DR 1.755 | ESS 2889 unsupported 0.000
+online/ft_support_oracle    true 1.456 IPS 1.689 SNIPS 1.426 DM 1.412 DR 1.465 | ESS 32 unsupported 0.013
+online/bandit               true 1.762 IPS 2.717 SNIPS 1.910 DM 1.758 DR 1.969 | ESS 3 unsupported 0.373

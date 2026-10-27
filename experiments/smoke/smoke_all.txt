@@ -1,0 +1,88 @@
+offline/random_smoke seed 0: val return 10.566  test return 9.702  test len 11.7  coverage 0.631
+offline/popularity_smoke seed 0: val return 44.358  test return 44.081  test len 27.4  coverage 0.009
+offline/behavior_smoke seed 0: val return 36.997  test return 36.608  test len 24.9  coverage 0.337
+offline/ranker_smoke seed 0: val return 41.523  test return 41.020  test len 27.2  coverage 0.009
+offline/bc_smoke seed 0: val return 44.078  test return 43.905  test len 27.5  coverage 0.009
+G:\Anaconda\envs\seqrl\Lib\site-packages\torch\nn\modules\rnn.py:1392: UserWarning: RNN module weights are not part of single contiguous chunk of memory. This means they need to be compacted at every call, possibly greatly increasing memory usage. To compact weights again call flatten_parameters(). (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\builder\windows\pytorch\aten\src\ATen\native\cudnn\RNN.cpp:1410.)
+  result = _VF.gru(
+offline/dqn_smoke seed 0: val return 34.978  test return 34.443  test len 25.2  coverage 0.010
+G:\Anaconda\envs\seqrl\Lib\site-packages\torch\nn\modules\rnn.py:1392: UserWarning: RNN module weights are not part of single contiguous chunk of memory. This means they need to be compacted at every call, possibly greatly increasing memory usage. To compact weights again call flatten_parameters(). (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\builder\windows\pytorch\aten\src\ATen\native\cudnn\RNN.cpp:1410.)
+  result = _VF.gru(
+offline/cql_smoke seed 0: val return 44.315  test return 43.941  test len 27.5  coverage 0.009
+G:\Anaconda\envs\seqrl\Lib\site-packages\torch\nn\modules\rnn.py:1392: UserWarning: RNN module weights are not part of single contiguous chunk of memory. This means they need to be compacted at every call, possibly greatly increasing memory usage. To compact weights again call flatten_parameters(). (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\builder\windows\pytorch\aten\src\ATen\native\cudnn\RNN.cpp:1410.)
+  result = _VF.gru(
+offline/calql_smoke seed 0: val return 44.807  test return 44.657  test len 27.5  coverage 0.010
+G:\Anaconda\envs\seqrl\Lib\site-packages\torch\nn\modules\rnn.py:1392: UserWarning: RNN module weights are not part of single contiguous chunk of memory. This means they need to be compacted at every call, possibly greatly increasing memory usage. To compact weights again call flatten_parameters(). (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\builder\windows\pytorch\aten\src\ATen\native\cudnn\RNN.cpp:1410.)
+  result = _VF.gru(
+offline/bcq_smoke seed 0: val return 45.040  test return 44.630  test len 27.7  coverage 0.010
+G:\Anaconda\envs\seqrl\Lib\site-packages\torch\nn\modules\rnn.py:1392: UserWarning: RNN module weights are not part of single contiguous chunk of memory. This means they need to be compacted at every call, possibly greatly increasing memory usage. To compact weights again call flatten_parameters(). (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\builder\windows\pytorch\aten\src\ATen\native\cudnn\RNN.cpp:1410.)
+  result = _VF.gru(
+online/scratch_dqn_smoke seed 0: val start 11.963 end 21.214 worst dip +0.000 | test 21.761
+G:\Anaconda\envs\seqrl\Lib\site-packages\torch\nn\modules\rnn.py:1392: UserWarning: RNN module weights are not part of single contiguous chunk of memory. This means they need to be compacted at every call, possibly greatly increasing memory usage. To compact weights again call flatten_parameters(). (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\builder\windows\pytorch\aten\src\ATen\native\cudnn\RNN.cpp:1410.)
+  result = _VF.gru(
+online/scratch_rlpd_smoke seed 0: val start 11.963 end 29.854 worst dip +0.000 | test 28.021
+online/bandit_smoke seed 0: val start 41.523 end 43.065 worst dip +0.000 | test 42.597
+G:\Anaconda\envs\seqrl\Lib\site-packages\torch\nn\modules\rnn.py:1392: UserWarning: RNN module weights are not part of single contiguous chunk of memory. This means they need to be compacted at every call, possibly greatly increasing memory usage. To compact weights again call flatten_parameters(). (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\builder\windows\pytorch\aten\src\ATen\native\cudnn\RNN.cpp:1410.)
+  result = _VF.gru(
+online/ft_dqn_smoke seed 0: val start 44.315 end 42.434 worst dip -1.881 | test 42.462
+G:\Anaconda\envs\seqrl\Lib\site-packages\torch\nn\modules\rnn.py:1392: UserWarning: RNN module weights are not part of single contiguous chunk of memory. This means they need to be compacted at every call, possibly greatly increasing memory usage. To compact weights again call flatten_parameters(). (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\builder\windows\pytorch\aten\src\ATen\native\cudnn\RNN.cpp:1410.)
+  result = _VF.gru(
+online/ft_cql_smoke seed 0: val start 44.315 end 44.611 worst dip +0.000 | test 44.454
+G:\Anaconda\envs\seqrl\Lib\site-packages\torch\nn\modules\rnn.py:1392: UserWarning: RNN module weights are not part of single contiguous chunk of memory. This means they need to be compacted at every call, possibly greatly increasing memory usage. To compact weights again call flatten_parameters(). (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\builder\windows\pytorch\aten\src\ATen\native\cudnn\RNN.cpp:1410.)
+  result = _VF.gru(
+online/ft_cql_decay_smoke seed 0: val start 44.315 end 44.727 worst dip -0.057 | test 44.481
+G:\Anaconda\envs\seqrl\Lib\site-packages\torch\nn\modules\rnn.py:1392: UserWarning: RNN module weights are not part of single contiguous chunk of memory. This means they need to be compacted at every call, possibly greatly increasing memory usage. To compact weights again call flatten_parameters(). (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\builder\windows\pytorch\aten\src\ATen\native\cudnn\RNN.cpp:1410.)
+  result = _VF.gru(
+online/ft_calql_smoke seed 0: val start 44.807 end 44.722 worst dip -0.455 | test 44.755
+G:\Anaconda\envs\seqrl\Lib\site-packages\torch\nn\modules\rnn.py:1392: UserWarning: RNN module weights are not part of single contiguous chunk of memory. This means they need to be compacted at every call, possibly greatly increasing memory usage. To compact weights again call flatten_parameters(). (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\builder\windows\pytorch\aten\src\ATen\native\cudnn\RNN.cpp:1410.)
+  result = _VF.gru(
+online/ft_support_oracle_smoke seed 0: val start 44.315 end 44.931 worst dip +0.000 | test 44.987
+G:\Anaconda\envs\seqrl\Lib\site-packages\torch\nn\modules\rnn.py:1392: UserWarning: RNN module weights are not part of single contiguous chunk of memory. This means they need to be compacted at every call, possibly greatly increasing memory usage. To compact weights again call flatten_parameters(). (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\builder\windows\pytorch\aten\src\ATen\native\cudnn\RNN.cpp:1410.)
+  result = _VF.gru(
+online/ft_support_bc_smoke seed 0: val start 44.315 end 44.792 worst dip +0.000 | test 44.906
+G:\Anaconda\envs\seqrl\Lib\site-packages\torch\nn\modules\rnn.py:1392: UserWarning: RNN module weights are not part of single contiguous chunk of memory. This means they need to be compacted at every call, possibly greatly increasing memory usage. To compact weights again call flatten_parameters(). (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\builder\windows\pytorch\aten\src\ATen\native\cudnn\RNN.cpp:1410.)
+  result = _VF.gru(
+online/ft_support_uniform_smoke seed 0: val start 44.315 end 45.184 worst dip +0.000 | test 45.037
+G:\Anaconda\envs\seqrl\Lib\site-packages\torch\nn\modules\rnn.py:1392: UserWarning: RNN module weights are not part of single contiguous chunk of memory. This means they need to be compacted at every call, possibly greatly increasing memory usage. To compact weights again call flatten_parameters(). (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\builder\windows\pytorch\aten\src\ATen\native\cudnn\RNN.cpp:1410.)
+  result = _VF.gru(
+online/ft_support_uniform_tracked_smoke seed 0: val start 44.315 end 44.601 worst dip +0.000 | test 44.547
+G:\Anaconda\envs\seqrl\Lib\site-packages\torch\nn\modules\rnn.py:1392: UserWarning: RNN module weights are not part of single contiguous chunk of memory. This means they need to be compacted at every call, possibly greatly increasing memory usage. To compact weights again call flatten_parameters(). (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\builder\windows\pytorch\aten\src\ATen\native\cudnn\RNN.cpp:1410.)
+  result = _VF.gru(
+online/ft_support_shuffled_smoke seed 0: val start 44.315 end 44.402 worst dip +0.000 | test 44.204
+G:\Anaconda\envs\seqrl\Lib\site-packages\torch\nn\modules\rnn.py:1392: UserWarning: RNN module weights are not part of single contiguous chunk of memory. This means they need to be compacted at every call, possibly greatly increasing memory usage. To compact weights again call flatten_parameters(). (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\builder\windows\pytorch\aten\src\ATen\native\cudnn\RNN.cpp:1410.)
+  result = _VF.gru(
+online/ft_support_inverted_smoke seed 0: val start 44.315 end 44.483 worst dip +0.000 | test 44.174
+G:\Anaconda\envs\seqrl\Lib\site-packages\torch\nn\modules\rnn.py:1392: UserWarning: RNN module weights are not part of single contiguous chunk of memory. This means they need to be compacted at every call, possibly greatly increasing memory usage. To compact weights again call flatten_parameters(). (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\builder\windows\pytorch\aten\src\ATen\native\cudnn\RNN.cpp:1410.)
+  result = _VF.gru(
+online/ft_support_oracle_smoke_learnedsim seed 0: val start 44.315 end 44.592 worst dip +0.000 | test 44.697
+offline/ranker               true 1.576 IPS 0.822 SNIPS 1.799 DM 1.893 DR 1.851 | ESS 61 unsupported 0.473
+offline/bc                   true 1.707 IPS 1.642 SNIPS 1.712 DM 1.723 DR 1.713 | ESS 369 unsupported 0.000
+offline/dqn                  true 1.322 IPS 0.000 SNIPS 0.000 DM 1.881 DR 1.881 | ESS 0 unsupported 0.934
+offline/cql                  true 1.744 IPS 1.724 SNIPS 1.763 DM 1.771 DR 1.767 | ESS 336 unsupported 0.000
+offline/calql                true 1.744 IPS 1.685 SNIPS 1.756 DM 1.763 DR 1.755 | ESS 303 unsupported 0.000
+offline/bcq                  true 1.783 IPS 1.894 SNIPS 1.777 DM 1.823 DR 1.779 | ESS 180 unsupported 0.001
+online/scratch_dqn          true 0.757 IPS 0.000 SNIPS 0.000 DM 1.047 DR 1.047 | ESS 0 unsupported 0.999
+online/ft_dqn               true 1.772 IPS 1.863 SNIPS 1.739 DM 1.830 DR 1.763 | ESS 86 unsupported 0.000
+online/ft_cql               true 1.745 IPS 1.735 SNIPS 1.746 DM 1.758 DR 1.747 | ESS 338 unsupported 0.000
+online/ft_support_oracle    true 1.751 IPS 1.753 SNIPS 1.764 DM 1.773 DR 1.771 | ESS 309 unsupported 0.000
+online/bandit               true 1.740 IPS 1.743 SNIPS 1.731 DM 1.791 DR 1.753 | ESS 181 unsupported 0.000
+offline/random                 base 10.21  drift0.2 10.29  drift0.5 7.78  cold0 9.53  cold2 9.44  noise0.3 9.90  fatigue0.6 8.73
+offline/popularity             base 45.11  drift0.2 43.35  drift0.5 40.80  cold0 45.11  cold2 45.11  noise0.3 45.11  fatigue0.6 43.22
+offline/behavior               base 38.81  drift0.2 37.84  drift0.5 32.33  cold0 37.66  cold2 38.43  noise0.3 39.65  fatigue0.6 37.93
+offline/ranker                 base 42.60  drift0.2 41.31  drift0.5 37.28  cold0 42.60  cold2 42.61  noise0.3 42.60  fatigue0.6 41.74
+offline/bc                     base 45.02  drift0.2 43.16  drift0.5 40.58  cold0 45.11  cold2 45.02  noise0.3 45.03  fatigue0.6 43.05
+offline/dqn                    base 38.18  drift0.2 37.00  drift0.5 31.73  cold0 37.97  cold2 38.23  noise0.3 38.16  fatigue0.6 34.61
+offline/cql                    base 45.15  drift0.2 43.34  drift0.5 40.68  cold0 45.24  cold2 45.18  noise0.3 45.16  fatigue0.6 43.05
+offline/calql                  base 45.89  drift0.2 43.64  drift0.5 41.14  cold0 45.89  cold2 45.89  noise0.3 45.87  fatigue0.6 44.50
+offline/bcq                    base 45.28  drift0.2 43.32  drift0.5 40.53  cold0 44.85  cold2 45.26  noise0.3 45.20  fatigue0.6 43.82
+online/scratch_dqn            base 25.21  drift0.2 27.71  drift0.5 23.81  cold0 24.54  cold2 23.78  noise0.3 25.57  fatigue0.6 20.64
+online/scratch_rlpd           base 28.52  drift0.2 30.42  drift0.5 23.70  cold0 28.51  cold2 28.32  noise0.3 27.89  fatigue0.6 24.65
+online/bandit                 base 43.41  drift0.2 42.01  drift0.5 39.33  cold0 43.23  cold2 43.35  noise0.3 43.37  fatigue0.6 41.85
+online/ft_dqn                 base 43.70  drift0.2 42.05  drift0.5 39.25  cold0 43.62  cold2 43.72  noise0.3 43.74  fatigue0.6 42.10
+online/ft_cql                 base 45.39  drift0.2 43.58  drift0.5 40.84  cold0 45.36  cold2 45.37  noise0.3 45.38  fatigue0.6 43.68
+online/ft_cql_decay           base 45.62  drift0.2 43.71  drift0.5 41.06  cold0 45.61  cold2 45.63  noise0.3 45.62  fatigue0.6 43.94
+online/ft_calql               base 45.75  drift0.2 43.46  drift0.5 40.42  cold0 45.84  cold2 45.84  noise0.3 45.74  fatigue0.6 44.19
+online/ft_support_oracle      base 45.94  drift0.2 43.85  drift0.5 41.41  cold0 45.85  cold2 45.86  noise0.3 45.92  fatigue0.6 44.41
+online/ft_support_bc          base 45.71  drift0.2 43.78  drift0.5 41.13  cold0 45.73  cold2 45.84  noise0.3 45.71  fatigue0.6 44.25
+online/ft_support_uniform     base 46.11  drift0.2 44.01  drift0.5 41.19  cold0 46.10  cold2 46.10  noise0.3 46.11  fatigue0.6 44.94
+online/ft_support_uniform_tracked base 45.55  drift0.2 43.72  drift0.5 41.00  cold0 45.63  cold2 45.59  noise0.3 45.55  fatigue0.6 43.77

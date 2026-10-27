@@ -1,0 +1,29 @@
+# Data, model weights, run outputs (never commit)
+data/
+artifacts/
+experiments/runs/
+*.pt
+*.pth
+*.ckpt
+*.npz
+*.parquet
+*.zip
+
+# User's separate RIS tutorial repo
+ris-tips/
+
+# Personal DRL course notes (not part of the project)
+DRL_COURSE_NOTES.md
+
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+build/
+dist/
+
+# Credentials
+.env
+*.key

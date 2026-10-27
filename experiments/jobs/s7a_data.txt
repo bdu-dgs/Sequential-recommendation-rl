@@ -1,0 +1,25 @@
+python scripts/generate_data.py --seed 0 logging.eps=0.0 logging.head_size=500
+python scripts/generate_data.py --seed 1 logging.eps=0.0 logging.head_size=500
+python scripts/generate_data.py --seed 2 logging.eps=0.0 logging.head_size=500
+python scripts/generate_data.py --seed 3 logging.eps=0.0 logging.head_size=500
+python scripts/generate_data.py --seed 4 logging.eps=0.0 logging.head_size=500
+python scripts/generate_data.py --seed 0 logging.eps=0.2 logging.temperature=0.3
+python scripts/generate_data.py --seed 1 logging.eps=0.2 logging.temperature=0.3
+python scripts/generate_data.py --seed 2 logging.eps=0.2 logging.temperature=0.3
+python scripts/generate_data.py --seed 3 logging.eps=0.2 logging.temperature=0.3
+python scripts/generate_data.py --seed 4 logging.eps=0.2 logging.temperature=0.3
+python scripts/generate_data.py --seed 0 sim.fatigue_beta=0.0
+python scripts/generate_data.py --seed 1 sim.fatigue_beta=0.0
+python scripts/generate_data.py --seed 2 sim.fatigue_beta=0.0
+python scripts/generate_data.py --seed 0 sim.fatigue_beta=0.6
+python scripts/generate_data.py --seed 1 sim.fatigue_beta=0.6
+python scripts/generate_data.py --seed 2 sim.fatigue_beta=0.6
+python scripts/generate_data.py --seed 0 sim.patience=2
+python scripts/generate_data.py --seed 1 sim.patience=2
+python scripts/generate_data.py --seed 2 sim.patience=2
+python scripts/generate_data.py --seed 0 sim.patience=5
+python scripts/generate_data.py --seed 1 sim.patience=5
+python scripts/generate_data.py --seed 2 sim.patience=5
+python scripts/generate_data.py --seed 0 sim.noise_std=0.3
+python scripts/generate_data.py --seed 1 sim.noise_std=0.3
+python scripts/generate_data.py --seed 2 sim.noise_std=0.3

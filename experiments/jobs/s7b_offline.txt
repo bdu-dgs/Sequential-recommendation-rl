@@ -1,0 +1,70 @@
+python scripts/run_offline.py --seed 0 --method cql --tag narrow logging.eps=0.0 logging.head_size=500
+python scripts/run_offline.py --seed 0 --method bc --tag narrow logging.eps=0.0 logging.head_size=500
+python scripts/run_offline.py --seed 0 --method behavior --tag narrow logging.eps=0.0 logging.head_size=500
+python scripts/run_offline.py --seed 0 --method bcq --tag narrow logging.eps=0.0 logging.head_size=500
+python scripts/run_offline.py --seed 1 --method cql --tag narrow logging.eps=0.0 logging.head_size=500
+python scripts/run_offline.py --seed 1 --method bc --tag narrow logging.eps=0.0 logging.head_size=500
+python scripts/run_offline.py --seed 1 --method behavior --tag narrow logging.eps=0.0 logging.head_size=500
+python scripts/run_offline.py --seed 1 --method bcq --tag narrow logging.eps=0.0 logging.head_size=500
+python scripts/run_offline.py --seed 2 --method cql --tag narrow logging.eps=0.0 logging.head_size=500
+python scripts/run_offline.py --seed 2 --method bc --tag narrow logging.eps=0.0 logging.head_size=500
+python scripts/run_offline.py --seed 2 --method behavior --tag narrow logging.eps=0.0 logging.head_size=500
+python scripts/run_offline.py --seed 2 --method bcq --tag narrow logging.eps=0.0 logging.head_size=500
+python scripts/run_offline.py --seed 3 --method cql --tag narrow logging.eps=0.0 logging.head_size=500
+python scripts/run_offline.py --seed 3 --method bc --tag narrow logging.eps=0.0 logging.head_size=500
+python scripts/run_offline.py --seed 3 --method behavior --tag narrow logging.eps=0.0 logging.head_size=500
+python scripts/run_offline.py --seed 3 --method bcq --tag narrow logging.eps=0.0 logging.head_size=500
+python scripts/run_offline.py --seed 4 --method cql --tag narrow logging.eps=0.0 logging.head_size=500
+python scripts/run_offline.py --seed 4 --method bc --tag narrow logging.eps=0.0 logging.head_size=500
+python scripts/run_offline.py --seed 4 --method behavior --tag narrow logging.eps=0.0 logging.head_size=500
+python scripts/run_offline.py --seed 4 --method bcq --tag narrow logging.eps=0.0 logging.head_size=500
+python scripts/run_offline.py --seed 0 --method cql --tag broad logging.eps=0.2 logging.temperature=0.3
+python scripts/run_offline.py --seed 0 --method bc --tag broad logging.eps=0.2 logging.temperature=0.3
+python scripts/run_offline.py --seed 0 --method behavior --tag broad logging.eps=0.2 logging.temperature=0.3
+python scripts/run_offline.py --seed 0 --method bcq --tag broad logging.eps=0.2 logging.temperature=0.3
+python scripts/run_offline.py --seed 1 --method cql --tag broad logging.eps=0.2 logging.temperature=0.3
+python scripts/run_offline.py --seed 1 --method bc --tag broad logging.eps=0.2 logging.temperature=0.3
+python scripts/run_offline.py --seed 1 --method behavior --tag broad logging.eps=0.2 logging.temperature=0.3
+python scripts/run_offline.py --seed 1 --method bcq --tag broad logging.eps=0.2 logging.temperature=0.3
+python scripts/run_offline.py --seed 2 --method cql --tag broad logging.eps=0.2 logging.temperature=0.3
+python scripts/run_offline.py --seed 2 --method bc --tag broad logging.eps=0.2 logging.temperature=0.3
+python scripts/run_offline.py --seed 2 --method behavior --tag broad logging.eps=0.2 logging.temperature=0.3
+python scripts/run_offline.py --seed 2 --method bcq --tag broad logging.eps=0.2 logging.temperature=0.3
+python scripts/run_offline.py --seed 3 --method cql --tag broad logging.eps=0.2 logging.temperature=0.3
+python scripts/run_offline.py --seed 3 --method bc --tag broad logging.eps=0.2 logging.temperature=0.3
+python scripts/run_offline.py --seed 3 --method behavior --tag broad logging.eps=0.2 logging.temperature=0.3
+python scripts/run_offline.py --seed 3 --method bcq --tag broad logging.eps=0.2 logging.temperature=0.3
+python scripts/run_offline.py --seed 4 --method cql --tag broad logging.eps=0.2 logging.temperature=0.3
+python scripts/run_offline.py --seed 4 --method bc --tag broad logging.eps=0.2 logging.temperature=0.3
+python scripts/run_offline.py --seed 4 --method behavior --tag broad logging.eps=0.2 logging.temperature=0.3
+python scripts/run_offline.py --seed 4 --method bcq --tag broad logging.eps=0.2 logging.temperature=0.3
+python scripts/run_offline.py --seed 0 --method cql --tag fat0 sim.fatigue_beta=0.0
+python scripts/run_offline.py --seed 0 --method behavior --tag fat0 sim.fatigue_beta=0.0
+python scripts/run_offline.py --seed 1 --method cql --tag fat0 sim.fatigue_beta=0.0
+python scripts/run_offline.py --seed 1 --method behavior --tag fat0 sim.fatigue_beta=0.0
+python scripts/run_offline.py --seed 2 --method cql --tag fat0 sim.fatigue_beta=0.0
+python scripts/run_offline.py --seed 2 --method behavior --tag fat0 sim.fatigue_beta=0.0
+python scripts/run_offline.py --seed 0 --method cql --tag fat06 sim.fatigue_beta=0.6
+python scripts/run_offline.py --seed 0 --method behavior --tag fat06 sim.fatigue_beta=0.6
+python scripts/run_offline.py --seed 1 --method cql --tag fat06 sim.fatigue_beta=0.6
+python scripts/run_offline.py --seed 1 --method behavior --tag fat06 sim.fatigue_beta=0.6
+python scripts/run_offline.py --seed 2 --method cql --tag fat06 sim.fatigue_beta=0.6
+python scripts/run_offline.py --seed 2 --method behavior --tag fat06 sim.fatigue_beta=0.6
+python scripts/run_offline.py --seed 0 --method cql --tag pat2 sim.patience=2
+python scripts/run_offline.py --seed 0 --method behavior --tag pat2 sim.patience=2
+python scripts/run_offline.py --seed 1 --method cql --tag pat2 sim.patience=2
+python scripts/run_offline.py --seed 1 --method behavior --tag pat2 sim.patience=2
+python scripts/run_offline.py --seed 2 --method cql --tag pat2 sim.patience=2
+python scripts/run_offline.py --seed 2 --method behavior --tag pat2 sim.patience=2
+python scripts/run_offline.py --seed 0 --method cql --tag pat5 sim.patience=5
+python scripts/run_offline.py --seed 0 --method behavior --tag pat5 sim.patience=5
+python scripts/run_offline.py --seed 1 --method cql --tag pat5 sim.patience=5
+python scripts/run_offline.py --seed 1 --method behavior --tag pat5 sim.patience=5
+python scripts/run_offline.py --seed 2 --method cql --tag pat5 sim.patience=5
+python scripts/run_offline.py --seed 2 --method behavior --tag pat5 sim.patience=5
+python scripts/run_offline.py --seed 0 --method cql --tag noise03 sim.noise_std=0.3
+python scripts/run_offline.py --seed 0 --method behavior --tag noise03 sim.noise_std=0.3
+python scripts/run_offline.py --seed 1 --method cql --tag noise03 sim.noise_std=0.3
+python scripts/run_offline.py --seed 1 --method behavior --tag noise03 sim.noise_std=0.3
+python scripts/run_offline.py --seed 2 --method cql --tag noise03 sim.noise_std=0.3
+python scripts/run_offline.py --seed 2 --method behavior --tag noise03 sim.noise_std=0.3

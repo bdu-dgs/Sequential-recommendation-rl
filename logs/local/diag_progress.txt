@@ -1,0 +1,13 @@
+[06:13:20] diag: 12 commands, 3 in parallel
+[06:19:07] diag line 1 ok (5.8 min): run_online.py --seed 0 --method ft_dqn --tag diag
+[06:19:19] diag line 2 ok (6.0 min): run_online.py --seed 0 --method ft_cql --tag diag
+[06:19:46] diag line 3 ok (6.4 min): run_online.py --seed 0 --method ft_support_oracle --tag diag
+[06:24:42] diag line 5 ok (5.4 min): run_online.py --seed 1 --method ft_dqn --tag diag
+[06:25:22] diag line 4 ok (6.3 min): run_online.py --seed 0 --method ft_support_uniform_tracked --tag diag
+[06:25:26] diag line 6 ok (5.7 min): run_online.py --seed 1 --method ft_cql --tag diag
+[06:30:55] diag line 7 ok (6.2 min): run_online.py --seed 1 --method ft_support_oracle --tag diag
+[06:30:58] diag line 9 ok (5.5 min): run_online.py --seed 2 --method ft_dqn --tag diag
+[06:31:47] diag line 8 ok (6.4 min): run_online.py --seed 1 --method ft_support_uniform_tracked --tag diag
+[06:36:47] diag line 10 ok (5.9 min): run_online.py --seed 2 --method ft_cql --tag diag
+[06:37:05] diag line 11 ok (6.1 min): run_online.py --seed 2 --method ft_support_oracle --tag diag
+[06:37:41] diag line 12 ok (5.9 min): run_online.py --seed 2 --method ft_support_uniform_tracked --tag diag

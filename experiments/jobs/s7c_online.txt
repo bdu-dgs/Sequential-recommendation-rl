@@ -1,0 +1,225 @@
+python scripts/run_online.py --seed 0 --method ft_dqn --tag narrow --init_tag narrow logging.eps=0.0 logging.head_size=500
+python scripts/run_online.py --seed 0 --method ft_cql --tag narrow --init_tag narrow logging.eps=0.0 logging.head_size=500
+python scripts/run_online.py --seed 0 --method ft_cql_decay --tag narrow --init_tag narrow logging.eps=0.0 logging.head_size=500
+python scripts/run_online.py --seed 0 --method ft_support_oracle --tag narrow --init_tag narrow logging.eps=0.0 logging.head_size=500
+python scripts/run_online.py --seed 0 --method ft_support_uniform --tag narrow --init_tag narrow logging.eps=0.0 logging.head_size=500
+python scripts/run_online.py --seed 0 --method ft_support_uniform_tracked --tag narrow --init_tag narrow logging.eps=0.0 logging.head_size=500
+python scripts/run_online.py --seed 0 --method ft_support_bc --tag narrow --init_tag narrow logging.eps=0.0 logging.head_size=500
+python scripts/run_online.py --seed 1 --method ft_dqn --tag narrow --init_tag narrow logging.eps=0.0 logging.head_size=500
+python scripts/run_online.py --seed 1 --method ft_cql --tag narrow --init_tag narrow logging.eps=0.0 logging.head_size=500
+python scripts/run_online.py --seed 1 --method ft_cql_decay --tag narrow --init_tag narrow logging.eps=0.0 logging.head_size=500
+python scripts/run_online.py --seed 1 --method ft_support_oracle --tag narrow --init_tag narrow logging.eps=0.0 logging.head_size=500
+python scripts/run_online.py --seed 1 --method ft_support_uniform --tag narrow --init_tag narrow logging.eps=0.0 logging.head_size=500
+python scripts/run_online.py --seed 1 --method ft_support_uniform_tracked --tag narrow --init_tag narrow logging.eps=0.0 logging.head_size=500
+python scripts/run_online.py --seed 1 --method ft_support_bc --tag narrow --init_tag narrow logging.eps=0.0 logging.head_size=500
+python scripts/run_online.py --seed 2 --method ft_dqn --tag narrow --init_tag narrow logging.eps=0.0 logging.head_size=500
+python scripts/run_online.py --seed 2 --method ft_cql --tag narrow --init_tag narrow logging.eps=0.0 logging.head_size=500
+python scripts/run_online.py --seed 2 --method ft_cql_decay --tag narrow --init_tag narrow logging.eps=0.0 logging.head_size=500
+python scripts/run_online.py --seed 2 --method ft_support_oracle --tag narrow --init_tag narrow logging.eps=0.0 logging.head_size=500
+python scripts/run_online.py --seed 2 --method ft_support_uniform --tag narrow --init_tag narrow logging.eps=0.0 logging.head_size=500
+python scripts/run_online.py --seed 2 --method ft_support_uniform_tracked --tag narrow --init_tag narrow logging.eps=0.0 logging.head_size=500
+python scripts/run_online.py --seed 2 --method ft_support_bc --tag narrow --init_tag narrow logging.eps=0.0 logging.head_size=500
+python scripts/run_online.py --seed 3 --method ft_dqn --tag narrow --init_tag narrow logging.eps=0.0 logging.head_size=500
+python scripts/run_online.py --seed 3 --method ft_cql --tag narrow --init_tag narrow logging.eps=0.0 logging.head_size=500
+python scripts/run_online.py --seed 3 --method ft_cql_decay --tag narrow --init_tag narrow logging.eps=0.0 logging.head_size=500
+python scripts/run_online.py --seed 3 --method ft_support_oracle --tag narrow --init_tag narrow logging.eps=0.0 logging.head_size=500
+python scripts/run_online.py --seed 3 --method ft_support_uniform --tag narrow --init_tag narrow logging.eps=0.0 logging.head_size=500
+python scripts/run_online.py --seed 3 --method ft_support_uniform_tracked --tag narrow --init_tag narrow logging.eps=0.0 logging.head_size=500
+python scripts/run_online.py --seed 3 --method ft_support_bc --tag narrow --init_tag narrow logging.eps=0.0 logging.head_size=500
+python scripts/run_online.py --seed 4 --method ft_dqn --tag narrow --init_tag narrow logging.eps=0.0 logging.head_size=500
+python scripts/run_online.py --seed 4 --method ft_cql --tag narrow --init_tag narrow logging.eps=0.0 logging.head_size=500
+python scripts/run_online.py --seed 4 --method ft_cql_decay --tag narrow --init_tag narrow logging.eps=0.0 logging.head_size=500
+python scripts/run_online.py --seed 4 --method ft_support_oracle --tag narrow --init_tag narrow logging.eps=0.0 logging.head_size=500
+python scripts/run_online.py --seed 4 --method ft_support_uniform --tag narrow --init_tag narrow logging.eps=0.0 logging.head_size=500
+python scripts/run_online.py --seed 4 --method ft_support_uniform_tracked --tag narrow --init_tag narrow logging.eps=0.0 logging.head_size=500
+python scripts/run_online.py --seed 4 --method ft_support_bc --tag narrow --init_tag narrow logging.eps=0.0 logging.head_size=500
+python scripts/run_online.py --seed 0 --method ft_dqn --tag broad --init_tag broad logging.eps=0.2 logging.temperature=0.3
+python scripts/run_online.py --seed 0 --method ft_cql --tag broad --init_tag broad logging.eps=0.2 logging.temperature=0.3
+python scripts/run_online.py --seed 0 --method ft_cql_decay --tag broad --init_tag broad logging.eps=0.2 logging.temperature=0.3
+python scripts/run_online.py --seed 0 --method ft_support_oracle --tag broad --init_tag broad logging.eps=0.2 logging.temperature=0.3
+python scripts/run_online.py --seed 0 --method ft_support_uniform --tag broad --init_tag broad logging.eps=0.2 logging.temperature=0.3
+python scripts/run_online.py --seed 0 --method ft_support_uniform_tracked --tag broad --init_tag broad logging.eps=0.2 logging.temperature=0.3
+python scripts/run_online.py --seed 0 --method ft_support_bc --tag broad --init_tag broad logging.eps=0.2 logging.temperature=0.3
+python scripts/run_online.py --seed 1 --method ft_dqn --tag broad --init_tag broad logging.eps=0.2 logging.temperature=0.3
+python scripts/run_online.py --seed 1 --method ft_cql --tag broad --init_tag broad logging.eps=0.2 logging.temperature=0.3
+python scripts/run_online.py --seed 1 --method ft_cql_decay --tag broad --init_tag broad logging.eps=0.2 logging.temperature=0.3
+python scripts/run_online.py --seed 1 --method ft_support_oracle --tag broad --init_tag broad logging.eps=0.2 logging.temperature=0.3
+python scripts/run_online.py --seed 1 --method ft_support_uniform --tag broad --init_tag broad logging.eps=0.2 logging.temperature=0.3
+python scripts/run_online.py --seed 1 --method ft_support_uniform_tracked --tag broad --init_tag broad logging.eps=0.2 logging.temperature=0.3
+python scripts/run_online.py --seed 1 --method ft_support_bc --tag broad --init_tag broad logging.eps=0.2 logging.temperature=0.3
+python scripts/run_online.py --seed 2 --method ft_dqn --tag broad --init_tag broad logging.eps=0.2 logging.temperature=0.3
+python scripts/run_online.py --seed 2 --method ft_cql --tag broad --init_tag broad logging.eps=0.2 logging.temperature=0.3
+python scripts/run_online.py --seed 2 --method ft_cql_decay --tag broad --init_tag broad logging.eps=0.2 logging.temperature=0.3
+python scripts/run_online.py --seed 2 --method ft_support_oracle --tag broad --init_tag broad logging.eps=0.2 logging.temperature=0.3
+python scripts/run_online.py --seed 2 --method ft_support_uniform --tag broad --init_tag broad logging.eps=0.2 logging.temperature=0.3
+python scripts/run_online.py --seed 2 --method ft_support_uniform_tracked --tag broad --init_tag broad logging.eps=0.2 logging.temperature=0.3
+python scripts/run_online.py --seed 2 --method ft_support_bc --tag broad --init_tag broad logging.eps=0.2 logging.temperature=0.3
+python scripts/run_online.py --seed 3 --method ft_dqn --tag broad --init_tag broad logging.eps=0.2 logging.temperature=0.3
+python scripts/run_online.py --seed 3 --method ft_cql --tag broad --init_tag broad logging.eps=0.2 logging.temperature=0.3
+python scripts/run_online.py --seed 3 --method ft_cql_decay --tag broad --init_tag broad logging.eps=0.2 logging.temperature=0.3
+python scripts/run_online.py --seed 3 --method ft_support_oracle --tag broad --init_tag broad logging.eps=0.2 logging.temperature=0.3
+python scripts/run_online.py --seed 3 --method ft_support_uniform --tag broad --init_tag broad logging.eps=0.2 logging.temperature=0.3
+python scripts/run_online.py --seed 3 --method ft_support_uniform_tracked --tag broad --init_tag broad logging.eps=0.2 logging.temperature=0.3
+python scripts/run_online.py --seed 3 --method ft_support_bc --tag broad --init_tag broad logging.eps=0.2 logging.temperature=0.3
+python scripts/run_online.py --seed 4 --method ft_dqn --tag broad --init_tag broad logging.eps=0.2 logging.temperature=0.3
+python scripts/run_online.py --seed 4 --method ft_cql --tag broad --init_tag broad logging.eps=0.2 logging.temperature=0.3
+python scripts/run_online.py --seed 4 --method ft_cql_decay --tag broad --init_tag broad logging.eps=0.2 logging.temperature=0.3
+python scripts/run_online.py --seed 4 --method ft_support_oracle --tag broad --init_tag broad logging.eps=0.2 logging.temperature=0.3
+python scripts/run_online.py --seed 4 --method ft_support_uniform --tag broad --init_tag broad logging.eps=0.2 logging.temperature=0.3
+python scripts/run_online.py --seed 4 --method ft_support_uniform_tracked --tag broad --init_tag broad logging.eps=0.2 logging.temperature=0.3
+python scripts/run_online.py --seed 4 --method ft_support_bc --tag broad --init_tag broad logging.eps=0.2 logging.temperature=0.3
+python scripts/run_online.py --seed 0 --method ft_dqn --tag fat0 --init_tag fat0 sim.fatigue_beta=0.0
+python scripts/run_online.py --seed 0 --method ft_cql --tag fat0 --init_tag fat0 sim.fatigue_beta=0.0
+python scripts/run_online.py --seed 0 --method ft_support_oracle --tag fat0 --init_tag fat0 sim.fatigue_beta=0.0
+python scripts/run_online.py --seed 0 --method ft_support_uniform_tracked --tag fat0 --init_tag fat0 sim.fatigue_beta=0.0
+python scripts/run_online.py --seed 1 --method ft_dqn --tag fat0 --init_tag fat0 sim.fatigue_beta=0.0
+python scripts/run_online.py --seed 1 --method ft_cql --tag fat0 --init_tag fat0 sim.fatigue_beta=0.0
+python scripts/run_online.py --seed 1 --method ft_support_oracle --tag fat0 --init_tag fat0 sim.fatigue_beta=0.0
+python scripts/run_online.py --seed 1 --method ft_support_uniform_tracked --tag fat0 --init_tag fat0 sim.fatigue_beta=0.0
+python scripts/run_online.py --seed 2 --method ft_dqn --tag fat0 --init_tag fat0 sim.fatigue_beta=0.0
+python scripts/run_online.py --seed 2 --method ft_cql --tag fat0 --init_tag fat0 sim.fatigue_beta=0.0
+python scripts/run_online.py --seed 2 --method ft_support_oracle --tag fat0 --init_tag fat0 sim.fatigue_beta=0.0
+python scripts/run_online.py --seed 2 --method ft_support_uniform_tracked --tag fat0 --init_tag fat0 sim.fatigue_beta=0.0
+python scripts/run_online.py --seed 0 --method ft_dqn --tag fat06 --init_tag fat06 sim.fatigue_beta=0.6
+python scripts/run_online.py --seed 0 --method ft_cql --tag fat06 --init_tag fat06 sim.fatigue_beta=0.6
+python scripts/run_online.py --seed 0 --method ft_support_oracle --tag fat06 --init_tag fat06 sim.fatigue_beta=0.6
+python scripts/run_online.py --seed 0 --method ft_support_uniform_tracked --tag fat06 --init_tag fat06 sim.fatigue_beta=0.6
+python scripts/run_online.py --seed 1 --method ft_dqn --tag fat06 --init_tag fat06 sim.fatigue_beta=0.6
+python scripts/run_online.py --seed 1 --method ft_cql --tag fat06 --init_tag fat06 sim.fatigue_beta=0.6
+python scripts/run_online.py --seed 1 --method ft_support_oracle --tag fat06 --init_tag fat06 sim.fatigue_beta=0.6
+python scripts/run_online.py --seed 1 --method ft_support_uniform_tracked --tag fat06 --init_tag fat06 sim.fatigue_beta=0.6
+python scripts/run_online.py --seed 2 --method ft_dqn --tag fat06 --init_tag fat06 sim.fatigue_beta=0.6
+python scripts/run_online.py --seed 2 --method ft_cql --tag fat06 --init_tag fat06 sim.fatigue_beta=0.6
+python scripts/run_online.py --seed 2 --method ft_support_oracle --tag fat06 --init_tag fat06 sim.fatigue_beta=0.6
+python scripts/run_online.py --seed 2 --method ft_support_uniform_tracked --tag fat06 --init_tag fat06 sim.fatigue_beta=0.6
+python scripts/run_online.py --seed 0 --method ft_dqn --tag pat2 --init_tag pat2 sim.patience=2
+python scripts/run_online.py --seed 0 --method ft_cql --tag pat2 --init_tag pat2 sim.patience=2
+python scripts/run_online.py --seed 0 --method ft_support_oracle --tag pat2 --init_tag pat2 sim.patience=2
+python scripts/run_online.py --seed 0 --method ft_support_uniform_tracked --tag pat2 --init_tag pat2 sim.patience=2
+python scripts/run_online.py --seed 1 --method ft_dqn --tag pat2 --init_tag pat2 sim.patience=2
+python scripts/run_online.py --seed 1 --method ft_cql --tag pat2 --init_tag pat2 sim.patience=2
+python scripts/run_online.py --seed 1 --method ft_support_oracle --tag pat2 --init_tag pat2 sim.patience=2
+python scripts/run_online.py --seed 1 --method ft_support_uniform_tracked --tag pat2 --init_tag pat2 sim.patience=2
+python scripts/run_online.py --seed 2 --method ft_dqn --tag pat2 --init_tag pat2 sim.patience=2
+python scripts/run_online.py --seed 2 --method ft_cql --tag pat2 --init_tag pat2 sim.patience=2
+python scripts/run_online.py --seed 2 --method ft_support_oracle --tag pat2 --init_tag pat2 sim.patience=2
+python scripts/run_online.py --seed 2 --method ft_support_uniform_tracked --tag pat2 --init_tag pat2 sim.patience=2
+python scripts/run_online.py --seed 0 --method ft_dqn --tag pat5 --init_tag pat5 sim.patience=5
+python scripts/run_online.py --seed 0 --method ft_cql --tag pat5 --init_tag pat5 sim.patience=5
+python scripts/run_online.py --seed 0 --method ft_support_oracle --tag pat5 --init_tag pat5 sim.patience=5
+python scripts/run_online.py --seed 0 --method ft_support_uniform_tracked --tag pat5 --init_tag pat5 sim.patience=5
+python scripts/run_online.py --seed 1 --method ft_dqn --tag pat5 --init_tag pat5 sim.patience=5
+python scripts/run_online.py --seed 1 --method ft_cql --tag pat5 --init_tag pat5 sim.patience=5
+python scripts/run_online.py --seed 1 --method ft_support_oracle --tag pat5 --init_tag pat5 sim.patience=5
+python scripts/run_online.py --seed 1 --method ft_support_uniform_tracked --tag pat5 --init_tag pat5 sim.patience=5
+python scripts/run_online.py --seed 2 --method ft_dqn --tag pat5 --init_tag pat5 sim.patience=5
+python scripts/run_online.py --seed 2 --method ft_cql --tag pat5 --init_tag pat5 sim.patience=5
+python scripts/run_online.py --seed 2 --method ft_support_oracle --tag pat5 --init_tag pat5 sim.patience=5
+python scripts/run_online.py --seed 2 --method ft_support_uniform_tracked --tag pat5 --init_tag pat5 sim.patience=5
+python scripts/run_online.py --seed 0 --method ft_dqn --tag noise03 --init_tag noise03 sim.noise_std=0.3
+python scripts/run_online.py --seed 0 --method ft_cql --tag noise03 --init_tag noise03 sim.noise_std=0.3
+python scripts/run_online.py --seed 0 --method ft_support_oracle --tag noise03 --init_tag noise03 sim.noise_std=0.3
+python scripts/run_online.py --seed 0 --method ft_support_uniform_tracked --tag noise03 --init_tag noise03 sim.noise_std=0.3
+python scripts/run_online.py --seed 1 --method ft_dqn --tag noise03 --init_tag noise03 sim.noise_std=0.3
+python scripts/run_online.py --seed 1 --method ft_cql --tag noise03 --init_tag noise03 sim.noise_std=0.3
+python scripts/run_online.py --seed 1 --method ft_support_oracle --tag noise03 --init_tag noise03 sim.noise_std=0.3
+python scripts/run_online.py --seed 1 --method ft_support_uniform_tracked --tag noise03 --init_tag noise03 sim.noise_std=0.3
+python scripts/run_online.py --seed 2 --method ft_dqn --tag noise03 --init_tag noise03 sim.noise_std=0.3
+python scripts/run_online.py --seed 2 --method ft_cql --tag noise03 --init_tag noise03 sim.noise_std=0.3
+python scripts/run_online.py --seed 2 --method ft_support_oracle --tag noise03 --init_tag noise03 sim.noise_std=0.3
+python scripts/run_online.py --seed 2 --method ft_support_uniform_tracked --tag noise03 --init_tag noise03 sim.noise_std=0.3
+python scripts/run_online.py --seed 0 --method ft_cql --tag alpha0.3 cql.alpha=0.3
+python scripts/run_online.py --seed 0 --method ft_support_oracle --tag alpha0.3 cql.alpha=0.3
+python scripts/run_online.py --seed 0 --method ft_support_uniform_tracked --tag alpha0.3 cql.alpha=0.3
+python scripts/run_online.py --seed 0 --method ft_cql --tag alpha3.0 cql.alpha=3.0
+python scripts/run_online.py --seed 0 --method ft_support_oracle --tag alpha3.0 cql.alpha=3.0
+python scripts/run_online.py --seed 0 --method ft_support_uniform_tracked --tag alpha3.0 cql.alpha=3.0
+python scripts/run_online.py --seed 0 --method ft_support_oracle --tag kappa0.3 support.kappa=0.3
+python scripts/run_online.py --seed 0 --method ft_support_oracle --tag kappa3.0 support.kappa=3.0
+python scripts/run_online.py --seed 0 --method ft_support_oracle --tag lam0 support.lam=0.0
+python scripts/run_online.py --seed 0 --method ft_support_uniform --tag lam0 support.lam=0.0
+python scripts/run_online.py --seed 0 --method ft_support_shuffled --tag lam0 support.lam=0.0
+python scripts/run_online.py --seed 0 --method ft_dqn --tag keepopt online.keep_optimizer=true
+python scripts/run_online.py --seed 0 --method ft_support_oracle --tag keepopt online.keep_optimizer=true
+python scripts/run_online.py --seed 0 --method ft_dqn --tag resettarget online.keep_target=false
+python scripts/run_online.py --seed 0 --method ft_support_oracle --tag resettarget online.keep_target=false
+python scripts/run_online.py --seed 0 --method ft_dqn --tag offr0 online.offline_ratio=0.0
+python scripts/run_online.py --seed 0 --method ft_support_oracle --tag offr0 online.offline_ratio=0.0
+python scripts/run_online.py --seed 0 --method ft_dqn --tag offr025 online.offline_ratio=0.25
+python scripts/run_online.py --seed 0 --method ft_support_oracle --tag offr025 online.offline_ratio=0.25
+python scripts/run_online.py --seed 1 --method ft_cql --tag alpha0.3 cql.alpha=0.3
+python scripts/run_online.py --seed 1 --method ft_support_oracle --tag alpha0.3 cql.alpha=0.3
+python scripts/run_online.py --seed 1 --method ft_support_uniform_tracked --tag alpha0.3 cql.alpha=0.3
+python scripts/run_online.py --seed 1 --method ft_cql --tag alpha3.0 cql.alpha=3.0
+python scripts/run_online.py --seed 1 --method ft_support_oracle --tag alpha3.0 cql.alpha=3.0
+python scripts/run_online.py --seed 1 --method ft_support_uniform_tracked --tag alpha3.0 cql.alpha=3.0
+python scripts/run_online.py --seed 1 --method ft_support_oracle --tag kappa0.3 support.kappa=0.3
+python scripts/run_online.py --seed 1 --method ft_support_oracle --tag kappa3.0 support.kappa=3.0
+python scripts/run_online.py --seed 1 --method ft_support_oracle --tag lam0 support.lam=0.0
+python scripts/run_online.py --seed 1 --method ft_support_uniform --tag lam0 support.lam=0.0
+python scripts/run_online.py --seed 1 --method ft_support_shuffled --tag lam0 support.lam=0.0
+python scripts/run_online.py --seed 1 --method ft_dqn --tag keepopt online.keep_optimizer=true
+python scripts/run_online.py --seed 1 --method ft_support_oracle --tag keepopt online.keep_optimizer=true
+python scripts/run_online.py --seed 1 --method ft_dqn --tag resettarget online.keep_target=false
+python scripts/run_online.py --seed 1 --method ft_support_oracle --tag resettarget online.keep_target=false
+python scripts/run_online.py --seed 1 --method ft_dqn --tag offr0 online.offline_ratio=0.0
+python scripts/run_online.py --seed 1 --method ft_support_oracle --tag offr0 online.offline_ratio=0.0
+python scripts/run_online.py --seed 1 --method ft_dqn --tag offr025 online.offline_ratio=0.25
+python scripts/run_online.py --seed 1 --method ft_support_oracle --tag offr025 online.offline_ratio=0.25
+python scripts/run_online.py --seed 2 --method ft_cql --tag alpha0.3 cql.alpha=0.3
+python scripts/run_online.py --seed 2 --method ft_support_oracle --tag alpha0.3 cql.alpha=0.3
+python scripts/run_online.py --seed 2 --method ft_support_uniform_tracked --tag alpha0.3 cql.alpha=0.3
+python scripts/run_online.py --seed 2 --method ft_cql --tag alpha3.0 cql.alpha=3.0
+python scripts/run_online.py --seed 2 --method ft_support_oracle --tag alpha3.0 cql.alpha=3.0
+python scripts/run_online.py --seed 2 --method ft_support_uniform_tracked --tag alpha3.0 cql.alpha=3.0
+python scripts/run_online.py --seed 2 --method ft_support_oracle --tag kappa0.3 support.kappa=0.3
+python scripts/run_online.py --seed 2 --method ft_support_oracle --tag kappa3.0 support.kappa=3.0
+python scripts/run_online.py --seed 2 --method ft_support_oracle --tag lam0 support.lam=0.0
+python scripts/run_online.py --seed 2 --method ft_support_uniform --tag lam0 support.lam=0.0
+python scripts/run_online.py --seed 2 --method ft_support_shuffled --tag lam0 support.lam=0.0
+python scripts/run_online.py --seed 2 --method ft_dqn --tag keepopt online.keep_optimizer=true
+python scripts/run_online.py --seed 2 --method ft_support_oracle --tag keepopt online.keep_optimizer=true
+python scripts/run_online.py --seed 2 --method ft_dqn --tag resettarget online.keep_target=false
+python scripts/run_online.py --seed 2 --method ft_support_oracle --tag resettarget online.keep_target=false
+python scripts/run_online.py --seed 2 --method ft_dqn --tag offr0 online.offline_ratio=0.0
+python scripts/run_online.py --seed 2 --method ft_support_oracle --tag offr0 online.offline_ratio=0.0
+python scripts/run_online.py --seed 2 --method ft_dqn --tag offr025 online.offline_ratio=0.25
+python scripts/run_online.py --seed 2 --method ft_support_oracle --tag offr025 online.offline_ratio=0.25
+python scripts/run_online.py --seed 3 --method ft_cql --tag alpha0.3 cql.alpha=0.3
+python scripts/run_online.py --seed 3 --method ft_support_oracle --tag alpha0.3 cql.alpha=0.3
+python scripts/run_online.py --seed 3 --method ft_support_uniform_tracked --tag alpha0.3 cql.alpha=0.3
+python scripts/run_online.py --seed 3 --method ft_cql --tag alpha3.0 cql.alpha=3.0
+python scripts/run_online.py --seed 3 --method ft_support_oracle --tag alpha3.0 cql.alpha=3.0
+python scripts/run_online.py --seed 3 --method ft_support_uniform_tracked --tag alpha3.0 cql.alpha=3.0
+python scripts/run_online.py --seed 3 --method ft_support_oracle --tag kappa0.3 support.kappa=0.3
+python scripts/run_online.py --seed 3 --method ft_support_oracle --tag kappa3.0 support.kappa=3.0
+python scripts/run_online.py --seed 3 --method ft_support_oracle --tag lam0 support.lam=0.0
+python scripts/run_online.py --seed 3 --method ft_support_uniform --tag lam0 support.lam=0.0
+python scripts/run_online.py --seed 3 --method ft_support_shuffled --tag lam0 support.lam=0.0
+python scripts/run_online.py --seed 3 --method ft_dqn --tag keepopt online.keep_optimizer=true
+python scripts/run_online.py --seed 3 --method ft_support_oracle --tag keepopt online.keep_optimizer=true
+python scripts/run_online.py --seed 3 --method ft_dqn --tag resettarget online.keep_target=false
+python scripts/run_online.py --seed 3 --method ft_support_oracle --tag resettarget online.keep_target=false
+python scripts/run_online.py --seed 3 --method ft_dqn --tag offr0 online.offline_ratio=0.0
+python scripts/run_online.py --seed 3 --method ft_support_oracle --tag offr0 online.offline_ratio=0.0
+python scripts/run_online.py --seed 3 --method ft_dqn --tag offr025 online.offline_ratio=0.25
+python scripts/run_online.py --seed 3 --method ft_support_oracle --tag offr025 online.offline_ratio=0.25
+python scripts/run_online.py --seed 4 --method ft_cql --tag alpha0.3 cql.alpha=0.3
+python scripts/run_online.py --seed 4 --method ft_support_oracle --tag alpha0.3 cql.alpha=0.3
+python scripts/run_online.py --seed 4 --method ft_support_uniform_tracked --tag alpha0.3 cql.alpha=0.3
+python scripts/run_online.py --seed 4 --method ft_cql --tag alpha3.0 cql.alpha=3.0
+python scripts/run_online.py --seed 4 --method ft_support_oracle --tag alpha3.0 cql.alpha=3.0
+python scripts/run_online.py --seed 4 --method ft_support_uniform_tracked --tag alpha3.0 cql.alpha=3.0
+python scripts/run_online.py --seed 4 --method ft_support_oracle --tag kappa0.3 support.kappa=0.3
+python scripts/run_online.py --seed 4 --method ft_support_oracle --tag kappa3.0 support.kappa=3.0
+python scripts/run_online.py --seed 4 --method ft_support_oracle --tag lam0 support.lam=0.0
+python scripts/run_online.py --seed 4 --method ft_support_uniform --tag lam0 support.lam=0.0
+python scripts/run_online.py --seed 4 --method ft_support_shuffled --tag lam0 support.lam=0.0
+python scripts/run_online.py --seed 4 --method ft_dqn --tag keepopt online.keep_optimizer=true
+python scripts/run_online.py --seed 4 --method ft_support_oracle --tag keepopt online.keep_optimizer=true
+python scripts/run_online.py --seed 4 --method ft_dqn --tag resettarget online.keep_target=false
+python scripts/run_online.py --seed 4 --method ft_support_oracle --tag resettarget online.keep_target=false
+python scripts/run_online.py --seed 4 --method ft_dqn --tag offr0 online.offline_ratio=0.0
+python scripts/run_online.py --seed 4 --method ft_support_oracle --tag offr0 online.offline_ratio=0.0
+python scripts/run_online.py --seed 4 --method ft_dqn --tag offr025 online.offline_ratio=0.25
+python scripts/run_online.py --seed 4 --method ft_support_oracle --tag offr025 online.offline_ratio=0.25

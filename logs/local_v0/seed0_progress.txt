@@ -1,0 +1,6 @@
+[20:38:02] s5b_offline: 9 commands, 3 in parallel
+[20:38:41] s5b_offline line 2 ok (0.6 min): run_offline.py --seed 0 --method popularity
+[20:38:41] s5b_offline line 1 ok (0.6 min): run_offline.py --seed 0 --method random
+[20:38:42] s5b_offline line 3 ok (0.7 min): run_offline.py --seed 0 --method behavior
+[20:47:53] s5b_offline line 4 ok (9.2 min): run_offline.py --seed 0 --method ranker
+[20:47:57] s5b_offline line 5 ok (9.3 min): run_offline.py --seed 0 --method bc
